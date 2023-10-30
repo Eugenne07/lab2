@@ -12,7 +12,7 @@ public class ex2 {
         number = myObj.nextInt();
         String str = Integer.toString(number);
         for(int i = 0; i < str.length(); i++){
-            sum = sum + number%10;
+            sum += number%10;
             number /= 10;
         }
         System.out.println(sum);
